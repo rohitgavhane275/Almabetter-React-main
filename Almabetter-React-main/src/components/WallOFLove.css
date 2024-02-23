@@ -1,0 +1,26 @@
+#wall-of-love {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#wall-of-love .heading {
+    display: flex;
+    justify-content: center;
+}
+
+#wall-of-love .heading img {
+    margin-left: 20px;
+}
+
+#wall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wall-of-love .button {
+    display: flex;
+    margin: 1rem 0px;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 'gellix-semibold', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 600;
+}

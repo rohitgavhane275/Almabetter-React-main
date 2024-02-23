@@ -1,0 +1,506 @@
+.pink-block {
+    position: absolute;
+    top: -142px;
+    right: 56px;
+    width: 51%;
+    height: 120%;
+    border-radius: 25px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 231 231/var(--tw-bg-opacity));
+    transform: rotate(215deg);
+}
+
+.black-block {
+    padding: 10px 40px;
+    width: 300px;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%)
+}
+
+.head-txt {
+    /* font-size: 3rem; */
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.cal {
+    width: 310px;
+    font-size: 15px;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(245 239 233/1);
+}
+
+.collab {
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.company-img {
+    width: 170px;
+}
+
+.btn-video {
+    margin-left: 20px;
+    padding: 10px 40px;
+}
+
+.text-body {
+    font-family: gellix-medium, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: rgb(108 108 108);
+}
+
+.btn1 {
+    display: block;
+    background-color: #f00037;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #f00037;
+    width: 270px;
+    margin-left: 50px;
+}
+
+.count {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.count-txt {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(108 108 108);
+}
+
+.right-icon {
+    margin-right: 20px;
+    color: rgb(32 168 152);
+}
+
+.login {
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(to right, #f00037, #9b0024);
+}
+
+.call-icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    color: #f00037;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(198, 198, 198);
+}
+
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #f00037;
+    border-radius: 3px;
+    border: 1px solid #f00037;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.note {
+    color: rgb(132 146 166);
+    font-family: gellix-semibold, sans-serif;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.mobile-no-I {
+    width: 82%;
+    margin-left: 15px;
+}
+
+.mobile-no {
+    width: 55px;
+    padding: 10px;
+    color: black;
+}
+
+.count-div {
+    display: block;
+    text-align: center;
+}
+
+.note2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.company-name {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-company-logo {
+    width: 124px;
+    height: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .homc {
+        width: 100% !important;
+    }
+
+    .login {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+
+
+
+    .pink-block {
+        display: none;
+    }
+
+    .text {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .icon {
+        font-size: 12px;
+    }
+
+    .black-block {
+        padding: 5px;
+        margin: 0px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .heading {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .head-txt {
+        font-size: 22px;
+        padding-right: 50px;
+        line-height: 1.2;
+    }
+
+    .cal {
+        font-size: 12px;
+    }
+
+    .cal-bg {
+        padding-left: 0px;
+        width: 70%;
+    }
+
+    .cal-img {
+        width: 15px;
+    }
+
+    .collab {
+        font-size: 10px;
+    }
+
+    .company-img {
+        width: 130px;
+    }
+
+    .btn-video {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .btn1 {
+        padding: 10px;
+        font-size: 12px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .text-body {
+        font-size: 15px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .details1 {
+        margin: 0px;
+    }
+
+    .right-icon {
+        margin-right: 10px;
+    }
+
+    .count {
+        font-size: 22px;
+    }
+
+    .count-txt {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .company-name {
+        margin: 30px;
+        display: block;
+    }
+
+    .company-logo {
+        margin: 50px;
+    }
+
+    .img-company-logo {
+        margin: 7px;
+        float: left;
+        width: 90px;
+        /* justify-content: center; */
+    }
+
+    .note2 {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+
+    .btn2 {
+        padding: 5px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .note {
+        font-size: 12px;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .card-head {
+        padding: 10px 10px;
+    }
+
+    .call-icon {
+        width: 50px;
+        height: 50px;
+        /* position: absolute; */
+        right: 0px;
+        padding: 12px;
+    }
+
+    .c-body {
+        margin: 15px;
+    }
+
+    .form-input {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .mobile-no {
+        width: 50px;
+        padding: 5px;
+    }
+
+    .mobile-no-I {
+        width: 74%;
+    }
+
+    .company-logo>img {
+        width: 70px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pink-block {
+        display: none;
+    }
+
+    .text {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .icon {
+        font-size: 12px;
+    }
+
+    .black-block {
+        padding: 5px;
+        margin: 0px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .heading {
+        margin-top: 20px;
+    }
+
+    .head-txt {
+        font-size: 25px;
+        font-weight: 700;
+        padding-right: 40px;
+        line-height: 1.2;
+    }
+
+    .cal {
+        font-size: 12px;
+    }
+
+    .cal-bg {
+        padding-left: 0px;
+        width: 75%;
+    }
+
+    .cal-img {
+        width: 15px;
+    }
+
+    .collab {
+        font-size: 12px;
+    }
+
+    .company-img {
+        width: 160px;
+    }
+
+    .btn-video {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .btn1 {
+        padding: 10px;
+        font-size: 14px;
+        width: 170px;
+        margin: 5px;
+    }
+
+    .text-body {
+        font-size: 15px;
+        margin-bottom: 0px;
+        display: flex;
+    }
+
+    .details1 {
+        margin: 0px;
+    }
+
+    .right-icon {
+        margin-right: 10px;
+    }
+
+    .count {
+        font-size: 30px;
+    }
+
+    .count-txt {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .company-name {
+        margin: 30px;
+        display: block;
+    }
+
+    .company-logo {
+        margin: 50px;
+    }
+
+    .img-company-logo {
+        float: left;
+        height: 50%;
+        /* justify-content: center; */
+    }
+
+    .note2 {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .btn2 {
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .note {
+        font-size: 12px;
+    }
+
+    .login {
+        margin-top: 20px;
+    }
+
+    .card-head {
+        padding: 10px 10px;
+    }
+
+    .call-icon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        padding: 12px;
+    }
+
+    .c-body {
+        margin: 15px;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .mobile-no {
+        width: 50px;
+        padding: 5px;
+    }
+
+    .mobile-no-I {
+        width: 74%;
+    }
+
+    .company-logo>img {
+        width: 100px;
+    }
+
+}

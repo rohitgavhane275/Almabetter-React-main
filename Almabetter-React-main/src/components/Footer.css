@@ -1,0 +1,46 @@
+#footer {
+    display: grid;
+    font-family: gellix-semibold, sans-serif;
+    grid-template-columns: 20rem auto 16rem auto auto;
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        grid-template-columns: auto;
+        padding: 2rem;
+    }
+
+}
+
+.fa-brands {
+    padding: 15px 10px;
+    color: #ffffff;
+}
+
+.fa-brands:hover {
+    transform: scale(1.2);
+}
+
+#footer h3 {
+    color: white;
+}
+
+#footer ul {
+    margin: 0px;
+    padding: 0 5px;
+}
+
+#footer li {
+    list-style-type: none;
+    padding: 9px 9px 0px 0px;
+    color: gray;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+#footer p {
+    color: white;
+}

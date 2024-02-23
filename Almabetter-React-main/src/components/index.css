@@ -1,0 +1,168 @@
+.navbar1 {
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+#move {
+    position: static;
+}
+
+.arrow {
+    visibility: hidden;
+}
+
+
+.text-dec {
+    /* margin-top: 100px; */
+    font-size: 28px;
+    font-weight: 700;
+    font-family: gellix-semibold, sans-serif;
+}
+
+.container_class {
+    /* margin: 100px 0 100px 0; */
+}
+
+.bg-red {
+    background-color: rgb(240, 0, 55)
+}
+
+.rounded_img {
+    border-radius: 50%;
+    /* margin-left: 270px; */
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background-color: grey;
+}
+
+.card_icons {
+    color: #3b83ba;
+    position: absolute;
+    font-size: 30px;
+    top: 75%;
+    right: 5%;
+}
+
+.career_card_top {
+    /* /* position: absolute; */
+    height: 9rem;
+}
+
+.career_card_top p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.career_rounded_img {
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    top: 21%;
+    right: 8%;
+    background-color: grey;
+}
+
+.btn_program {
+    margin-left: 300px;
+    margin-bottom: 48px;
+    border: 1px solid rgb(240, 0, 55);
+    border-radius: 6px;
+}
+
+.btn_program,
+.btn_broucher {
+    width: 300px;
+    height: 50px;
+}
+
+.btn_broucher {
+    margin-top: 48px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .arrow {
+        z-index: 10;
+        visibility: visible;
+    }
+
+
+    .logo {
+        visibility: hidden;
+        display: none;
+    }
+
+    #move {
+        position: relative;
+    }
+
+    .text-dec {
+        font-size: 20px;
+    }
+
+    .btn_program,
+    .btn_broucher {
+        margin: 10px 0 0 0px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:927px) {
+    .arrow {
+        z-index: 10;
+        visibility: visible;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #move {
+        position: relative;
+    }
+
+    .btn_navbar {
+        visibility: hidden;
+    }
+
+    .text-dec {
+        font-size: 25px;
+    }
+
+    .rounded_img {
+        margin-left: 210px;
+        margin-top: 16px;
+    }
+
+    .card_icons {
+        margin-left: 280px;
+    }
+
+    .cards {
+        width: 20rem;
+    }
+
+    .career_card_top p {
+        font-size: 14px;
+    }
+
+    .career_rounded_img {
+        margin-left: 200px;
+    }
+
+    .btn_program {
+        margin-left: 50px;
+    }
+
+}

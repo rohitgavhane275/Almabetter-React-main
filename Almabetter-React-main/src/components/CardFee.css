@@ -1,0 +1,56 @@
+.card-fee {
+    display: block;
+    max-width: 23.5rem;
+    padding: 2rem 1rem;
+    margin: 20px 0px 50px 0px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+}
+
+.card-fee h3 {
+    color: red;
+}
+
+.fee-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-fee p {
+    color: rgb(82 82 82/1);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin: 0px;
+}
+
+.card-fee ul {
+    padding: 0px 5px;
+}
+
+.card-fee li {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: left;
+    padding: 5px 0px;
+    list-style-type: none;
+}
+
+.card-fee-prop {
+    width: 90%;
+}
+
+.fee-i {
+    height: 24px;
+}
+
+.fee-i::before {
+    position: absolute;
+    padding: 4px;
+    background-color: pink;
+    border-radius: 50%;
+
+}

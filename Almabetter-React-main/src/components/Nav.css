@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+.nav-2 {
+    position: sticky !important;
+    background-color: white;
+    top: 0px;
+    height: 70px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.nav-2 .list-group {
+    width: 822px;
+}
+
+.nav-2 i {
+    display: none;
+}
+
+.nav-2 .list-group {
+    height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-2 .container-fluid {
+        position: absolute;
+    }
+
+    .nav-2 .navbar-brand {
+        display: none;
+    }
+
+    .nav-2 .btn {
+        display: none;
+    }
+
+    .nav-2 i {
+        display: block;
+    }
+
+    .nav-2 .menu {
+        overflow: hidden;
+        width: 80%;
+    }
+
+    .nav-2 .list-group {
+        position: relative;
+        left: 0px;
+
+    }
+
+}

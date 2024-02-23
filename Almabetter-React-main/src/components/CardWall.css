@@ -1,0 +1,54 @@
+.cardWall {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardWall:hover {
+    z-index: 10;
+    transform: scale(1.05);
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-delay: .2s;
+}
+
+.cardWall .info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.cardWall .info p {
+    font-family: gellix-semibold, sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.cardWall .info .gray {
+    color: gray;
+}
+
+.cardWall .info h6 {
+    font-family: gellix-semibold, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+    #wall {
+        padding: 0px;
+    }
+
+    .cardWall {
+        margin: 1rem 0rem;
+        width: 350px;
+    }
+
+}
